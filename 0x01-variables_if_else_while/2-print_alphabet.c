@@ -3,17 +3,13 @@
 /**
  * main - Entry
  *
- * Return: (0)
-*/
+ * Return: 0
+ */
 int main(void)
 {
-	char x;
+	char c;
 
-	if (x = "a"; x <= "z"; x++);
-	{
-		putchar(x);
-	}
-
-	putchar("\n");
+	for (c = "a"; c <= "z"; c++)
+		putchar("\n");
 	return (0);
 }
